@@ -606,6 +606,25 @@
       <script src="js/jquery.prettyPhoto.js"></script> 
       <script src="js/isotope.min.js"></script> 
       <script src="js/custom.js"></script>
+      <script type="module">
+         // Import the functions you need from the SDKs you need
+         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
+         // TODO: Add SDKs for Firebase products that you want to use
+         // https://firebase.google.com/docs/web/setup#available-libraries
+       
+         // Your web app's Firebase configuration
+         const firebaseConfig = {
+           apiKey: "AIzaSyBibBtxJocjsEKtyP9cUibFsh5kJK1SngU",
+           authDomain: "malnutricion-mexico.firebaseapp.com",
+           projectId: "malnutricion-mexico",
+           storageBucket: "malnutricion-mexico.appspot.com",
+           messagingSenderId: "476585060134",
+           appId: "1:476585060134:web:2a40660e7c8fb7750783e7"
+         };
+       
+         // Initialize Firebase
+         const app = initializeApp(firebaseConfig);
+       </script>
    </body>
 
 
